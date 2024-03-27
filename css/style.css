@@ -559,7 +559,7 @@
   padding: 1.2rem;
   font-size: 1.8rem;
   font-family: inherit;
-  color: inherit;
+  color: var(--primary-shade-2);
   border: none;
   background-color: var(--primary-tint-1);
   border-radius: 9px;
@@ -567,7 +567,7 @@
 }
 
 .cta-form input::placeholder {
-  color: #aaa;
+  color: var(--accent-color);
 }
 
 .cta *:focus {
