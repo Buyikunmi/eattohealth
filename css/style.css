@@ -594,6 +594,7 @@
 }
 
 .footer-logo {
+  text-decoration: none;
   display: block;
   margin-bottom: 3.2rem;
 }
@@ -667,4 +668,22 @@
 
 .sticky .section-hero {
   margin-top: 9.6rem;
+}
+
+.text-logo {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: var(--primary-shade-2);
+  text-decoration: none !important;
+}
+
+.text-logo a {
+  text-decoration: none;
+}
+.logo-text-primary {
+  color: var(--primary-color);
+}
+
+header a {
+  text-decoration: none;
 }
